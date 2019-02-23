@@ -11,13 +11,13 @@
 	  while(true)
 	  {
 	  var b=confirm("这个信息框出现了"+i+"次\u000d按取消结束");
-	  if(b==true)
+	  if(b==true)//不知道js能不能像JAVA一样用if(b)
 	  {
 	  i++;
 	  }
 	  else
 	  {
-	  	break;
+	  	break;//break down!break down!
 	  }
 	  }
 var time1=new Date().getTime();
@@ -27,7 +27,7 @@ alert("恭喜你在这个地方浪费了"+b+"秒\u000d总共点了"+i+"次\u000d
 }else{
 alert("恭喜你在这个地方浪费了"+b+"秒\u000d总共点了"+i +"次\u000d平均"+(b/i)+"秒点一次");
 }
-i=0
+i=0 //这里是bug吗？不，不是
 }
 </script>
   </head>
