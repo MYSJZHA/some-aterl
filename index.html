@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <!--<h1>My Website</h1>
+-->
+    <p>恭喜你，出来啦！</p>
+	<script>
+	  var i=0;
+	  var time=new Date().getTime();
+	  while(true)
+	  {
+	  var b=confirm("这个信息框出现了"+i+"次\u000d按取消结束");
+	  if(b==true)
+	  {
+	  i++;
+	  }
+	  else
+	  {
+	  	break;
+	  }
+	  }
+var time1=new Date().getTime();
+var b=(time1-time)/1000.0000;
+if(i==0){
+alert("恭喜你在这个地方浪费了"+b+"秒\u000d总共点了"+i
+	+"次\u000d平均6666666666秒点一次");
+}else{
+alert("恭喜你在这个地方浪费了"+b+"秒\u000d总共点了"+i
+		        +"次\u000d平均"+(b/i)+"秒点一次");
+}
+
+	</script>
+  </body>
+</html>		
